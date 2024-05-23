@@ -1,0 +1,60 @@
+/*.uk-card-body {
+    background-color: red !important;
+}*/
+.redcard{
+    background-color: red;
+}
+
+
+
+.botao {
+ 
+    background-color: white !important;
+    color: red !important;
+}
+
+.botao-2 {
+ 
+    background-color: red !important;
+    color: white !important;
+}
+
+.uk-badge {
+    background-color: white !important;
+    color: red !important;
+    height: 25px;
+    padding: 10px;
+    font-size: medium;
+    
+    
+}
+
+.icone {
+    color:red
+  }
+  
+  .fundo {
+  
+    background-color: red;
+  
+  }
+  .texto {
+    color:black !important
+  }
+  
+  .banner {
+    width: 100%;
+    height: auto;
+    padding-top: 24px;
+  }
+  
+  
+  .dominios {
+  
+      display:inline-block;
+      padding-left: 10%;
+      padding-right: 10%;
+  
+  }
+  
+  

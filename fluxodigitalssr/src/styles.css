@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+p {
+    font-family: "San Francisco", "SF Pro", sans-serif !important;
+  }
+  
+  body {
+  
+    font-family: "San Francisco", "SF Pro", sans-serif !important;
+  
+  }
+  
+  
+  
+  h1, h2, h3, ul, li, nav, a {
+    font-family: "San Francisco", "SF Pro", sans-serif !important;
+  
+  
+  }
+  
+  .uk-container, .uk-heading-medium, .uk-heading-small, .uk-text, .uk-button {
+    font-family: "San Francisco", "SF Pro", sans-serif !important ;
+  }
+
+  .specs{
+    background-color: red;
+    color: white;
+  }

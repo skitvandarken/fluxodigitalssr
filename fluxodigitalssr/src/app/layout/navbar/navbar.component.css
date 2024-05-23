@@ -1,0 +1,37 @@
+.logotop {
+
+    align-items: flex-start;
+    text-align: left;
+    height: 120px;
+    width: auto;
+    display: flex;
+  
+  }
+  
+  a{
+  
+    color: white !important;
+    font-weight: 500;
+    
+  
+  
+  }
+
+  a :hover {
+    color:grey;
+  }
+  
+  .uk-offcanvas-bar {
+    background-color: red;
+    color: white !important;
+  
+  }
+
+  .uk-navbar-container {
+    background-color: #ff0000; /* Change to your desired color */
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
+    border-bottom: white;
+    border-width: 10px;
+  }
+
+ 
