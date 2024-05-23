@@ -10,7 +10,7 @@
   
   a{
   
-    color: white !important;
+    color:black !important;
     font-weight: 500;
     
   
@@ -23,12 +23,12 @@
   
   .uk-offcanvas-bar {
     background-color: red;
-    color: white !important;
+    /* color: white !important;*/
   
   }
 
   .uk-navbar-container {
-    background-color: #ff0000; /* Change to your desired color */
+   /* background-color: #ff0000;  Change to your desired color */
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
     border-bottom: white;
     border-width: 10px;
