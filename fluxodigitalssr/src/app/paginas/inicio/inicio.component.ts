@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from '../../layout/navbar/navbar.component';
 import { SliderComponent } from '../../layout/slider/slider.component';
+import { ClientesComponent } from '../../layout/clientes/clientes.component';
+import { FooterComponent } from '../../layout/footer/footer.component';
 
 @Component({
   selector: 'app-inicio',
@@ -8,7 +10,9 @@ import { SliderComponent } from '../../layout/slider/slider.component';
   imports: [
 
     NavbarComponent,
-    SliderComponent
+    SliderComponent,
+    ClientesComponent,
+    FooterComponent
 
   ],
   templateUrl: './inicio.component.html',
