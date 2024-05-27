@@ -1,6 +1,8 @@
 /*.uk-card-body {
     background-color: red !important;
 }*/
+
+
 .redcard{
     background-color: red;
 }
@@ -17,6 +19,12 @@
  
     background-color: red !important;
     color: white !important;
+}
+
+.grey-bg{
+
+  background-color: grey;
+
 }
 
 .uk-badge {
@@ -57,4 +65,8 @@
   
   }
   
-  
+  .sombra {
+
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+
+  }
