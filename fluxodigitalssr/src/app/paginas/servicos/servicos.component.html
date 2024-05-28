@@ -11,7 +11,8 @@
   <!-- Desenvolvimento Web e Programação -->
 <div style="margin-top: 2%; margin-left: 2%;" class=" uk-border-rounded">
     <div class="uk-text-center uk-container">
-        <h2><b> 1. Desenvolvimento Web e Programação </b></h2>
+        <p class="icone"><span uk-icon="icon: world; ratio: 3"></span></p> 
+        <h2 style="color: red;"><b> 1. Desenvolvimento Web e Programação </b></h2>
     </div>
     <div style="margin-top: 2%;">
         <div class="uk-child-width-1-4@s uk-grid-divider uk-grid-small uk-grid uk-match-height" uk-grid>
@@ -21,8 +22,9 @@
                     <div class="uk-card-media-top">
                         <img class="uk-border-rounded" src="assets/servicos/web-development.png" >
                         <p>para <b>grande</b>, médias e pequenas empresas; insituições públicas e privadas; com funcionalidades personalizadas e/ou comuns.</p>
-                        <button [routerLink]="['/contacto']" class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
+                        <a [routerLink]="['/contacto']" ><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
                     </div>
+
                 </div>
             </div>
     
@@ -32,7 +34,7 @@
                 <div class="uk-card-media-top">
                     <img class="uk-border-rounded" src="assets/servicos/e-commerce.png" >
                     <p>para grandes e pequenos negócios. Para alcançar clientes do mundo todo ou arranque rápido do seu negócio. </p>
-                    <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
+                    <a [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
                 </div>
         </div>
     </div>
@@ -43,7 +45,7 @@
             <div class="uk-card-media-top">
                 <img class="uk-border-rounded" src="assets/servicos/desenvolvimento-app.png" >
                 <p>para a <b>Web</b>, dispositívos <b>móveis</b> e <b>desktops</b>. Aplicações para todas finalidades, possíveis e feitos à medida da sua necessidade.</p>
-                <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
+                <a [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
             </div>
         </div>
     </div>
@@ -55,7 +57,7 @@
             <div class="uk-card-media-top">
                 <img class="uk-border-rounded" src="assets/servicos/security.png" >
                     <p>Recuperamos e protegemos o seu website ou aplicativo e garantimos que não perca o investimento já feito.</p>
-                <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
+                <a  [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
             </div>
         </div>
     </div>
@@ -66,7 +68,8 @@
   <!-- Audiovisual e Streaming -->
   <div style="margin-top: 2%; margin-left: 2%;" class=" uk-border-rounded">
     <div class="uk-text-center uk-container">
-        <h2><b> 2. Produção AudioVisual </b> </h2>
+        <p class="icone"><span uk-icon="icon: play-circle; ratio: 3"></span></p>            
+        <h2 style="color: red;"><b> 2. Produção AudioVisual </b> </h2>
     </div>
     <div style="margin-top: 2%;">
         <div class="uk-child-width-1-4@s uk-grid-divider uk-grid-small uk-grid uk-match-height" uk-grid>
@@ -76,7 +79,7 @@
                     <div class="uk-card-media-top">
                         <img class="uk-border-rounded" src="assets/servicos/live-streaming.png" >
                         <p>ajudamos-lhe a alcançar <b>audiência globa</b>, transmitindo seu evento ao vivo ou levando seu sinal para núvem dedicada</p>
-                        <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
+                        <a [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
                     </div>
                 </div>
             </div>
@@ -87,7 +90,7 @@
                 <div class="uk-card-media-top">
                     <img class="uk-border-rounded" src="assets/servicos/videoconferencia.png" >
                     <p> Integramos soluções de TI para envolver todas partes e personalidades ou audiência do seu evento. </p>
-                    <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
+                    <a [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
                 </div>
         </div>
     </div>
@@ -98,7 +101,7 @@
             <div class="uk-card-media-top">
                 <img class="uk-border-rounded" src="assets/servicos/audiovisual.png" >
                 <p>Elaboramos e executamos porjectos audiovisuais desde a <b>pré-produção até a pós-produção</b>. Tornamos real a sua ideia</p>
-                <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
+                <a [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
             </div>
         </div>
     </div>
@@ -110,8 +113,8 @@
             <div class="uk-card-media-top">
                 <img class="uk-border-rounded" src="assets/servicos/design-grafico.png" >
                     <p>Construimos sua marca implementação completa de uma identidade visual corporativa. Damos corpo aos seus projectos gráficos</p>
-                <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
-            </div>
+                    <a [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
+                </div>
         </div>
     </div>
 </div>
@@ -123,7 +126,8 @@
   <!-- Gestão de Infraestruturas de T.I -->
   <div style="margin-top: 2%; margin-left: 2%;" class=" uk-border-rounded">
     <div class="uk-text-center uk-container">
-        <h2><b> 3. Gestão de Infraestruturas de T.I </b> </h2>
+        <p class="icone"><span uk-icon="icon: server; ratio: 3"></span></p>            
+        <h2  style="color: red;"><b> 3. Gestão de Infraestruturas de T.I </b> </h2>
     </div>
     <div style="margin-top: 2%;">
         <div class="uk-child-width-1-4@s uk-grid-divider uk-grid-small uk-grid uk-match-height" uk-grid>
@@ -133,7 +137,7 @@
                     <div class="uk-card-media-top">
                         <img class="uk-border-rounded" src="assets/servicos/servidores.png" >
                         <p>criamos e gerenciamos sua infraestrura <b>on premise</b>, garantido a instalação e execução sem sobresaltos dos seus serviços bem como a proteção dos seus dados</p>
-                        <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
+                        <a [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
                     </div>
                 </div>
             </div>
@@ -144,7 +148,7 @@
                 <div class="uk-card-media-top">
                     <img class="uk-border-rounded" src="assets/servicos/cloud.png" >
                     <p> Levamos suas aplicações e dados em segurança para a núvem, oferecendo nosso expertise transversal às melhores soluções e provedores do mercado.</p>
-                    <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
+                    <a [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
                 </div>
         </div>
     </div>
@@ -155,7 +159,7 @@
             <div class="uk-card-media-top">
                 <img class="uk-border-rounded" src="assets/servicos/devops.png" >
                 <p>Implementamos práticas e ferramentas de úlima geração para agilizar o processo de entrega de software de forma confiável e segura dentro da sua organização.</p>
-                <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
+                <a [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
             </div>
         </div>
     </div>
@@ -166,9 +170,9 @@
             <p  class="uk-card-title"><b>Ligaçõe<br>Ponto-a-Ponto </b></p>
             <div class="uk-card-media-top">
                 <img class="uk-border-rounded" src="assets/servicos/point-to-point.png" >
-                    <p>Planejamos e implementamos o transporte de dados e conectividade para áreas de difícil acesso e remotas, centralizando o controlo e reduzindo custos operacionais</p>
-                <button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button>
-            </div>
+                    <p>Planejamos e implementamos o transporte de dados e conectividade para áreas de difícil acesso e remotas, centralizando o controlo e reduzindo custos operacionais.</p>
+                    <a [routerLink]="['/contacto']"><button class="uk-border-rounded botao uk-button uk-button-large uk-button-default">Soliticar</button></a>
+                </div>
         </div>
     </div>
 </div>
