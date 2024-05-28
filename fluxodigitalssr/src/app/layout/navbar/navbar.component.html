@@ -19,11 +19,11 @@
         <li><a routerLink="/" uk-scroll="offset: 80">Início</a></li>
         <li><a [routerLink]="['servicos']" uk-scroll="offset: 80">Serviços</a></li>
         <li><a href="https://softechost.com/index.php/store/hospedagem-compartilhada" uk-scroll="offset: 80">Hospedagem</a></li>
-        <li><a routerLink="/acerca" uk-scroll="offset: 80">Acerca</a></li>
-        <li><a routerLink="/contacto" uk-scroll="offset: 80">Produtos</a></li>
-        <li><a routerLink="/empregos" uk-scroll="offset: 80">Empregos</a></li>
+        <li><a [routerLink]="['acerca']"uk-scroll="offset: 80">Acerca</a></li>
+        <li><a [routerLink]="['produtos']" uk-scroll="offset: 80">Produtos</a></li>
+        <li><a [routerLink]="['empregos']" uk-scroll="offset: 80">Empregos</a></li>
 
-        <li><a routerLink="/contacto" uk-scroll="offset: 80">Contacto</a></li>
+        <li><a [routerLink]="['contacto']" uk-scroll="offset: 80">Contacto</a></li>
       </ul>
       <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-nav" uk-toggle>
         <span uk-navbar-toggle-icon></span>
@@ -34,12 +34,13 @@
   <div id="offcanvas-nav" uk-offcanvas="flip: true; overlay: true">
     <div class="uk-offcanvas-bar">
       <ul class="uk-nav uk-nav-default">
-        <li><a href="#" uk-scroll="offset: 80">Início</a></li>
-        <li><a href="#" uk-scroll="offset: 80">Serviços</a></li>
-        <li><a href="#" uk-scroll="offset: 80">Hospedagem</a></li>
-        <li><a href="#" uk-scroll="offset: 80">Produtos</a></li>
-        <li><a href="#" uk-scroll="offset: 80">Contacto</a></li>
-        <li><a href="#" uk-scroll="offset: 80">Acerca</a></li>
+        <li><a [routerLink]="['/']" uk-scroll="offset: 80">Início</a></li>
+        <li><a [routerLink]="['servicos']" uk-scroll="offset: 80">Serviços</a></li>
+        <li><a [routerLink]="['hospedage']" uk-scroll="offset: 80">Hospedagem</a></li>
+        <li><a [routerLink]="['produtos']" uk-scroll="offset: 80">Produtos</a></li>
+        <li><a [routerLink]="['acerca']" uk-scroll="offset: 80">Acerca</a></li>
+        <li><a [routerLink]="['contacto']"uk-scroll="offset: 80">Contacto</a></li>
+
 
       </ul>
     </div>

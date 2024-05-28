@@ -15,11 +15,36 @@
     color: red !important;
 }
 
+.botao-1 {
+  background-color: white !important;
+  color: red !important;
+}
+
+.botao:hover {
+  background-color: red !important;
+  color: white !important;
+
+}
+
 .botao-2 {
  
     background-color: red !important;
     color: white !important;
 }
+
+.botao-3 {
+    background-color: red;
+    color:white;
+    transition: background-color 0.5s ease; /* Transition on hover */
+
+}
+.botao-3:hover{
+    background-color: white;
+    color: red;
+    transition: 2ms;
+    cursor: pointer;
+
+  }
 
 .grey-bg{
 

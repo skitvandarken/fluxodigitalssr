@@ -1,7 +1,9 @@
 .botao {
 
     background-color: red;
-    color:white
+    color:white;
+    color:white;
+    transition: background-color 0.5s ease; /* Transition on hover */
 }
 
 .icone {
