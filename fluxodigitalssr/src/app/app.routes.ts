@@ -17,6 +17,7 @@ export const routes: Routes = [
     { path:'contacto', component:ContactoComponent},
     { path:'empregos', component:EmpregosComponent},
     { path:'portfolio', component:ServicosComponent},
+    { path:'servicos', component: ServicosComponent},
 //componenes de layout
     { path:'clientes', component: ClientesComponent},
     { path: 'footer', component: FooterComponent},
@@ -24,6 +25,5 @@ export const routes: Routes = [
     { path:'navbar',component:NavbarComponent },
     { path:'slider', component: SliderComponent},
     { path: 'whatsapp', component: WhatsappComponent}
-
 
 ];
